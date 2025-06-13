@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bankın Hikâyesi</title>
+  <style>
+    :root {
+      --primary-color: #2e856e;
+      --secondary-color: #f4f9f8;
+      --text-color: #2c2c2c;
+      --accent-color: #c5ded5;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--secondary-color);
+      color: var(--text-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 90%;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: var(--primary-color);
+    }
+
+    .section-title {
+      font-size: 1.2rem;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: #444;
+      font-weight: bold;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 1rem;
+      margin: 0;
+    }
+
+    .highlight {
+      background-color: var(--accent-color);
+      padding: 0.4rem 0.6rem;
+      border-radius: 6px;
+      display: inline-block;
+      margin-top: 0.5rem;
+      font-weight: bold;
+      color: var(--primary-color);
+    }
+
+    @media (max-width: 500px) {
+      .card {
+        padding: 1.5rem;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Bu Bankın Hikâyesi</h1>
+
+    <div class="section">
+      <div class="section-title">Yıkılan Binanın Hikâyesi</div>
+      <p>1992 yılında Kadıköy’de inşa edilen, yıllar içinde depreme dayanıksız hâle gelen dört katlı konut binası 2023 yılında yıkıldı. Betonarme kalıntılar, bu bankın ayaklarını oluşturdu.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Toplanan Plastiklerin Kaynağı</div>
+      <p>Marmara Denizi kıyılarında yapılan temizlik çalışmaları sonucu toplanan plastik atıklar, geri dönüştürülerek bankın oturma yüzeyine dönüştürüldü.</p>
+    </div>
+
+    <div class="highlight">Sürdürülebilirlik & Döngüsel Tasarım</div>
+  </div>
+</body>
+</html>
